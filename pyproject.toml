@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ml-workshop"
+version = "0.1.0"
+description = ""
+authors = ["Jan Hadl <jan.d.hadl@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ml_workshop"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.0.1"
+torchvision = "^0.15.2"
+pandas = "^2.0.3"
+transformers = "^4.30.2"
+peft = "^0.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^6.5.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

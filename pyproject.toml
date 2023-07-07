@@ -13,6 +13,14 @@ torchvision = "^0.15.2"
 pandas = "^2.0.3"
 transformers = "^4.30.2"
 peft = "^0.3.0"
+datasets = "^2.13.1"
+ipywidgets = "^8.0.7"
+seqeval = "^1.2.2"
+evaluate = "^0.4.0"
+spacy = "^3.5.4"
+nltk = "^3.8.1"
+adapter-transformers = "^3.2.1"
+torchinfo = "^1.8.0"
 
 
 [tool.poetry.group.dev.dependencies]
